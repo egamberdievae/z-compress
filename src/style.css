@@ -1,0 +1,102 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+}
+
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: linear-gradient(to right, #3691E1, #4B87BC);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+  padding-top: 50px;
+}
+
+.container {
+  background-color: #152033;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+  min-width: 400px;
+  color: white;
+}
+
+.need{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.need img{
+	width: 100%;
+}
+
+h2 {
+  margin: 0 0 10px;
+  text-align: center;
+}
+
+.upload-btn {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  margin: 20px 0;
+  background: linear-gradient(to right, #00c6ff, #0072ff);
+  color: white;
+  text-align: center;
+  border-radius: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.uploads-section h3 {
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.uploads-placeholder {
+  color: gray;
+  font-style: italic;
+}
+
+.file-item {
+  background-color: #1f2b40;
+  border-radius: 12px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+  justify-content: space-between;
+}
+
+.file-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.thumbnail {
+  width: 60px;
+  height: 40px;
+  border-radius: 6px;
+  object-fit: cover;
+  background-color: #2a3b55;
+}
+
+.file-info span {
+  font-size: 14px;
+}
+
+.delete-icon {
+  width: 20px;
+  height: 20px;
+  background-image: url('https://icons.veryicon.com/png/o/education-technology/learning-to-bully-the-king/delete-351.png');
+  background-size: cover;
+  cursor: pointer;
+}

@@ -7,7 +7,25 @@
     <title>Vite App</title>
   </head>
   <body>
-    <div id="app"></div>
+    <div id="app">
+      <div class="container">
+    <div class="need">
+    <img src="https://cdni.iconscout.com/illustration/premium/thumb/video-upload-illustration-download-in-svg-png-gif-file-formats--analytics-logo-uploading-data-to-cloud-pack-files-folders-illustrations-6109668.png?f=webp">
+    <h2>Compress Video files</h2>
+    <p>Compress the larger and save space.</p>
+    <label for="fileInput" class="upload-btn">Upload Now</label>
+    <input type="file" id="fileInput" accept="video/*" hidden>
+</div>
+
+    <div class="uploads-section">
+      <h3>Recent uploads</h3>
+      <div id="uploadsList" class="uploads-placeholder">
+        
+      </div>
+    </div>
+  </div>
+
+    </div>
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>
